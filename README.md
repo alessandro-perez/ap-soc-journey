@@ -1,6 +1,6 @@
-# Alessandro Perez - SOC Portfolio
+# Alessandro Perez - Cyber Portfolio
 
-Cybersecurity student at the University of South Florida focused on blue team operations, SOC analysis, and defensive security.
+Cybersecurity student at the University of South Florida with a focus on blue team operations, SOC analysis, and defensive security.
 
 ## About Me
 
