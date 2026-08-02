@@ -1,0 +1,99 @@
+# Windows Event Logs
+
+> Module: Hack The Box Academy – SOC Analyst Path
+
+## Overview
+
+This module introduced the fundamentals of Windows Event Logs and their role in security monitoring and incident response. I learned how Windows records system, application, and security events, and how analysts can use these logs to investigate suspicious activity.
+
+---
+
+## Learning Objectives
+
+After completing this module, I can:
+
+- Explain the purpose of Windows Event Logs.
+- Navigate Windows Event Viewer.
+- Identify the primary Windows log categories.
+- Understand the structure of an event log.
+- Use Event IDs during investigations.
+- Recognize common Windows security events relevant to threat detection.
+
+---
+
+## Key Concepts
+
+### Windows Log Categories
+
+The primary Windows logs include:
+
+- Application
+- Security
+- System
+- Setup
+- Forwarded Events
+
+---
+
+### Event Structure
+
+Each event contains valuable investigation data:
+
+- Event ID
+- Source
+- Severity Level
+- Timestamp
+- User
+- Computer Name
+- Event Details (XML)
+
+Understanding these fields helps analysts quickly identify suspicious behavior.
+
+---
+
+### Event Correlation
+
+Analysts can connect multiple related events using identifiers such as:
+
+- Logon ID
+- Process ID
+- User Account
+- Timestamp
+
+This provides a clearer timeline of activity during an investigation and shifts the focus away from viewing single events in isolation.
+
+---
+
+## Event IDs Worth Remembering
+
+Some Windows Event IDs that I found particularly useful include:
+
+| Event ID | Description |
+|----------|-------------|
+| 4624 | Successful Logon |
+| 4625 | Failed Logon |
+| 4672 | Special Privileges Assigned |
+| 4698 | Scheduled Task Created |
+| 4719 | Audit Policy Changed |
+| 7045 | Service Installed |
+
+These events frequently appear during Windows security investigations.
+
+---
+
+## Skills Practiced
+
+- Navigating Event Viewer
+- Examining Windows Security Logs
+- Reviewing event details
+- Identifying useful Event IDs
+- Understanding XML event data
+- Correlating related events
+
+---
+
+## Takeaways
+
+This module highlighted the importance of Windows Event Logs as one of the primary data sources used by SOC analysts.
+
+Rather than focusing on individual alerts, effective investigations rely on building context by correlating multiple events to trace attacker activity.
