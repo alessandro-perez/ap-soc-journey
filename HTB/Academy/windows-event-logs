@@ -18,7 +18,7 @@ After completing this module, I can:
 - Understand the structure of an event log.
 - Use Event IDs during investigations.
 - Recognize common Windows security events relevant to threat detection.
-
+- Utilize ETW as an additional source for telemetry
 ---
 
 ## Key Concepts
@@ -81,6 +81,15 @@ These events frequently appear during Windows security investigations.
 
 ---
 
+## Event Tracing for Windows
+
+- Clear understanding of ETW architecture and components
+- Practiced with Logman commands for investigating tracing sessions
+- Became familiar with useful ETW providers
+- Utilized ETW to detect malicious .NET assembly loading
+
+---
+
 ## Skills Practiced
 
 - Navigating Event Viewer
@@ -91,7 +100,6 @@ These events frequently appear during Windows security investigations.
 - Correlating related events
 
 ---
-
 ## Takeaways
 
 This module highlighted the importance of Windows Event Logs as one of the primary data sources used by SOC analysts.
